@@ -1,1 +1,34 @@
 /* your code here */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #11e37e;
+}
+.product {
+  display: flex;
+}
+.product__info {
+  padding: 2%;
+  padding-left: 14%;
+  margin: 10% 35%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.price {
+  color: #ff4545;
+}
+.price > span {
+  font-size: 30px;
+}
+.variant > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.product__photo {
+  display: flex;
+  background-color: #a2e219;
+}
